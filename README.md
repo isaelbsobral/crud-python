@@ -1,7 +1,7 @@
 
 # CRUD em Python 
 
-Criação de um sistema simples de CRUD ( Create, Read, Update e Delete) usando MySQL.
+Criação de um sistema simples de CRUD (Create, Read, Update e Delete) usando MySQL.
 
 
 
