@@ -24,7 +24,7 @@ while op > 5:
 if op == 1:
     # Create
     cursor = conexao.cursor()
-    nome_produto=input("Digite o nome do produto: ")
+    nome_produto = input("Digite o nome do produto: ")
     valor = float(input("Digite o valor: "))
     cursor = conexao.cursor()#executar os comandos da conexão
     comando =f'INSERT INTO vendas (nome_produto,valor) VALUES("{nome_produto}",{valor}) ' #instrução do que vai acontecer no BD
